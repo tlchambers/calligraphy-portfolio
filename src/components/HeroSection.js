@@ -9,20 +9,19 @@ function HeroSection() {
       <video src="/vid/video-3.mp4" autoPlay loop muted />
       <h1>I am simply an appreciator of beautiful writing</h1>
       <p>
-        I am aspiring calligrapher who enjoys creating contemporary lettering
-        designs
+       who enjoys creating contemporary lettering for special occasions
       </p>
       <div className="hero-btns">
         <Button
           className="btns"
-          buttonStyle="btn--outline"
+          buttonStyle="btn--primary"
           buttonSize="btn--large"
         >
           ABOUT ME
         </Button>
         <Button
           className="btns"
-          buttonStyle="btn--primary"
+          buttonStyle="btn--outline"
           buttonSize="btn--large"
           onClick={console.log("hey")}
         >
