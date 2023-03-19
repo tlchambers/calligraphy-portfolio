@@ -23,7 +23,7 @@ function HeroSection() {
           className="btns"
           buttonStyle="btn--outline"
           buttonSize="btn--large"
-          onClick={console.log("video button clicked")}
+          onClick={console.log("Video on this page")}
         >
           WATCH TRAILER <i className="far fa-play-circle" />
         </Button>
