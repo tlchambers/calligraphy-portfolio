@@ -23,7 +23,7 @@ video {
 
 .hero-container > h1 {
   color: #fff;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Ethereal', sans-serif;
   font-size: 26px;
   text-align: left;
 }
@@ -32,7 +32,7 @@ video {
   margin-top: 8px;
   color: #fff;
   font-size: 16px;
-  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Ethereal', sans-serif;
   text-align: left;
 }
 
