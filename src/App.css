@@ -17,11 +17,7 @@
 }
 
 .services {
-  background-image: url('');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
+  background-image: url("../public/images/img-1.jpg");
   font-size: 100px;
 }
 
