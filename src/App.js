@@ -7,6 +7,7 @@ import Services from "./components/pages/Services";
 import Products from "./components/pages/Products";
 import SignUp from "./components/pages/SignUp";
 import About from "./components/pages/About";
+import {SliderDate} from "./components/SliderData";
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/services" element={<Services />} />
-          <Route path="/products" element={<Products />} />
+          <Route path="/products" element={<Products slides={SliderDate} />} />
           <Route path="/about" element={<About />} />
           <Route path="/sign-up" element={<SignUp />} />
         </Routes>
