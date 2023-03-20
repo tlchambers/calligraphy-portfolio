@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { SliderDate } from "../SliderData";
-import { IconContext, DefaultContext } from "./iconContext";
-// import {AiOutlineLeft, AiOutlineRight } from "react-icons"
+// import { IconContext, DefaultContext } from "./iconContext";
+import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 // import "../../App.css";
 
-const Products = ({slides}) => {
+const Products = ({ slides }) => {
   const [current, setCurrent] = useState(0);
-  const length = slides.length;
+  // const length = slides.length;
 
   return (
     <section className="slider">
@@ -17,6 +17,6 @@ const Products = ({slides}) => {
       })}
     </section>
   );
-}
+};
 
-export default Products
+export default Products;
