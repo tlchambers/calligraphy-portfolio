@@ -5,7 +5,7 @@ import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
 
 const Products = ({ slides }) => {
   const [current, setCurrent] = useState(0);
-  // const length = slides.length;
+  const length = slides.length;
 
   return (
     <section className="slider">
