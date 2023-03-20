@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { SliderDate } from "../SliderData";
-// import { IconContext, DefaultContext } from "./iconContext";
-import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
+import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
 // import "../../App.css";
 
 const Products = ({ slides }) => {
@@ -10,8 +9,8 @@ const Products = ({ slides }) => {
 
   return (
     <section className="slider">
-      <AiOutlineLeft className="left-arrow" />
-      <AiOutlineRight className="right-arrow" />
+      <AiOutlineArrowLeft className="left-arrow" />
+      <AiOutlineArrowRight className="right-arrow" />
       {SliderDate.map((slide, index) => {
         return <img src={slide.image} alt="calligraphy image" />;
       })}
