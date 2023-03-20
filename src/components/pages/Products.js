@@ -1,6 +1,22 @@
-import React from 'react';
-import '../../App.css';
+import React, { useState } from "react";
+import { SliderDate } from "../SliderData";
+import { IconContext, DefaultContext } from "./iconContext";
+// import {AiOutlineLeft, AiOutlineRight } from "react-icons"
+// import "../../App.css";
 
-export default function Products() {
-  return <h1 className="about">Products</h1>;
+const Products = ({slides}) => {
+  const [current, setCurrent] = useState(0);
+  const length = slides.length;
+
+  return (
+    <section className="slider">
+      <AiOutlineLeft className="left-arrow" />
+      <AiOutlineRight className="right-arrow" />
+      {SliderDate.map((slide, index) => {
+        return <img src={slide.image} alt="calligraphy image" />;
+      })}
+    </section>
+  );
 }
+
+export default Products
