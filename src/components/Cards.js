@@ -38,8 +38,8 @@ function Cards() {
             <CardItem
               src="images/img-8.jpg"
               text="Ride through the Sahara Desert on a guided camel tour"
-              label="SignUp"
-              path="/sign-up"
+              label="Contact"
+              path="/contact"
             />
           </ul>
         </div>
