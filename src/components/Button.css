@@ -17,10 +17,11 @@
 }
 
 .btn--outline {
-  background-color: transparent;
+  background-color: #b9b8b8;
   color: #fff;
   padding: 8px 20px;
-  border: 1px solid var(--primary);
+  margin-bottom: 9px;
+  /* border: 2px solid #b9b8b8; */
   transition: all 0.3s ease-out;
 }
 
