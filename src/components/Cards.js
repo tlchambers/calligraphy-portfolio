@@ -21,6 +21,12 @@ function Cards() {
               label="Services"
               path="/services"
             />
+            <CardItem
+              src="images/img-3.jpg"
+              text="Set Sail in the Atlantic Ocean visiting Uncharted Waters"
+              label="Candles"
+              path="/candles"
+            />
           </ul>
           <ul className="cards__items">
             <CardItem
