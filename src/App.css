@@ -6,7 +6,6 @@
 }
 
 .home,
-.services,
 .products,
 .contact {
   display: flex;
@@ -17,12 +16,13 @@
 }
 
 .services {
-  background-image: url("../public/images/img-2.jpg");
-  font-size: 20px;
+  /* background-image: url("../public/images/img-1.jpg"); */
+  background-position: center;
+  font-size: 12x;
 }
 
 .products {
-  /* background-image: url('/images/img-1.jpg'); */
+  /* background-image: url('../public/images/img-1.jpg'); */
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
@@ -50,7 +50,7 @@
 .image {
   width: 1000px;
   height: 600px;
-  /* border-radius: 10px; */
+  border-radius: 10px;
 }
 
 .right-arrow {
