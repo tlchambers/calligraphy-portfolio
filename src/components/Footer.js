@@ -28,18 +28,18 @@ function Footer() {
       <div class="footer-links">
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
-            <h2>About Me</h2>
+            <h4>About Me</h4>
             <Link to="/about">How it all started</Link>
             <Link to="/">Terms of Service</Link>
           </div>
           <div class="footer-link-items">
-            <h2>Contact Us</h2>
+            <h4>Contact Us</h4>
             <Link to="/">Contact</Link>
           </div>
         </div>
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
-            <h2>Social Media</h2>
+            <h4>Social Media</h4>
             <Link to="/">Instagram</Link>
             <Link to="/">Facebook</Link>
           </div>
