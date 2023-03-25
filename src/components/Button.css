@@ -8,36 +8,38 @@
   outline: none;
   border: none;
   cursor: pointer;
+  font-size: 0.8rem;
 }
 
 .btn--primary {
   background-color: var(--primary);
-  color: #242424;
+  color: #504944;
   border: 1px solid var(--primary);
+  font-size: 0.8rem;
 }
 
 .btn--outline {
-  background-color: #b9b8b8;
-  color: #fff;
+  /* background-color: #504944; */
+  color: #504944;
   padding: 8px 20px;
   margin-bottom: 9px;
-  /* border: 2px solid #b9b8b8; */
+  border: 2px solid #504944;
   transition: all 0.3s ease-out;
 }
 
 .btn-medium {
   padding: 8px 20px;
-  font-size: 20px;
+  font-size: 0.8rem;
 }
 
 .btn-large {
   padding: 12px 26px;
-  font-size: 20px;
+  font-size: 1rem;
 }
 
 .btn-medium:hover,
 .btn-large:hover {
-  background-color: #fff;
-  color: #242424;
+  background-color:  #242424;
+  /* color: #242424; */
   transition: all 0.3s ease-out;
 }
