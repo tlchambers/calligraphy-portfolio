@@ -2,10 +2,9 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 50px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   padding-left: 60px;
   padding-right: 60px;
-  padding-bottom: 80px;
   /* margin-bottom: -15px; */
 }
 
@@ -21,6 +20,7 @@
 
 .product-image-100 {
   max-width: 100%;
+  padding-bottom: 80px;
 }
 
 .heading {
@@ -39,24 +39,15 @@
 h1 {
   font-size: 2.5vw;
   font-family: "Ethereal", sans-serif;
-  color: #504944;
+  /* color: #504944; */
   z-index: 1;
   max-width: 500px;
 }
 
 .text-container {
-  line-height: 1.8;
-  padding-top: 60px;
+  line-height: 1.9;
+  padding-top: 80px;
   padding-left: 30px;
-  padding-right: 60px;
-  margin-bottom: 200px;
+  padding-right: 30px;
+  /* margin-bottom: 200px; */
 }
-
-/* .container2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 50px;
-  margin: 0 auto;
-  padding: 60px;
-  margin-bottom: -15px;
-} */
