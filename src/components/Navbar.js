@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "./Button";
-import "./Navbar.css";
+import "../Styling/Navbar.css";
 import logo from "../Logo.png"
 // import th from "../../public/imagesLogo.png"
 

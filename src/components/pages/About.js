@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../App.css';
-import "./Services.css";
+import "../../Styling/Services.css";
 
 export default function About() {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import "./Services.css";
+import "../../Styling/Services.css";
 import "../../components/pages/Services";
 // import CardItem from "../CardItem";
 import Cards from "../Cards";
@@ -16,7 +16,7 @@ function Services() {
           />
         </div>
         <div className="heading">
-          <h1>Bespoke calligraphy created I've built over the past 2 years</h1>
+          <h1>Bespoke calligraphy created I've crafted over the past 2 years</h1>
         </div>
       </div>
 
@@ -36,7 +36,7 @@ function Services() {
           <img className="product-image-100" src="https://images.squarespace-cdn.com/content/v1/5a3c5739aeb625ba533819a0/1614987099903-7CHLIF50E831MLTJB7EH/bespoke-calligraphy-prints-poem-commission-anniversary-gift.jpg?format=1500w" alt="calligraphy topper created in January 2023" />
         </div>
         <div className="text-container">
-          <h2>Custom Handscribed Candles</h2>
+          <h2>Custom Hand Painted Candles</h2>
           <p>Hand-painted calligraphy candles are a one-of-a-kind creation that brings a touch of elegance and personalization to any space. The unique combination of hand-painted art and calligraphy creates a truly bespoke candle that makes for a memorable and meaningful gift. </p><br/>
           <p>These candles are perfect for adding a special touch to weddings, events, or as a statement piece in your own home. Choose from a variety of scents and colors to create a truly unique and personalized candle that will illuminate your space in more ways than one.</p>
         </div>
