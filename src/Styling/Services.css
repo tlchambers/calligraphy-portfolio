@@ -1,6 +1,6 @@
 .container1 {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
   column-gap: 50px;
   /* margin: 0 auto; */
   padding-left: 60px;
@@ -29,9 +29,9 @@
   align-items: start;
   top: 45%;
   right: 5%;
-  transform: translate(-100, -40%);
+  /* transform: translate(-100, -70%); */
   /* background-color: #cccccc; */
-  background-color: rgba(199, 196, 187, 0.3);
+  background-color: rgba(199, 196, 187, 0.5);
   /* color: #fff; */
   padding: 10px 20px;
 }
@@ -41,7 +41,7 @@ h1 {
   font-family: "Ethereal", sans-serif;
   /* color: #504944; */
   z-index: 1;
-  max-width: 500px;
+  max-width: 700px;
 }
 
 .text-container {

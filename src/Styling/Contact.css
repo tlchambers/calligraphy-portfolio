@@ -1,0 +1,46 @@
+/* * {
+  box-sizing: border-box;
+  border: 1px solid red;
+} */
+
+.form-container {
+  display: block;
+  text-align: center;
+}
+
+form {
+  display: inline-block;
+  text-align: left;
+  padding-top: 30px;
+  /* padding-left: 350px;
+  padding-right: 350px; */
+}
+
+.form-container h1 {
+  text-align: center;
+  margin: 20px;
+}
+
+.info-container {
+  padding-bottom: 40px;
+}
+
+.form-container label {
+  display: block;
+  /* text-align: center; */
+  margin: 0 0 2vh 0;
+}
+
+select {
+  width: 100%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+
+
