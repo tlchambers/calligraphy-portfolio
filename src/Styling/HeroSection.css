@@ -24,8 +24,9 @@ video {
 .hero-container > h1 {
   color: #fff;
   font-family: 'Ethereal', sans-serif;
-  font-size: 26px;
-  text-align: left;
+  font-size: 28px;
+  /* text-align: left; */
+  margin-top: -150px;
 }
 
 .hero-container > p {
