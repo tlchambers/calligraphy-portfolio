@@ -1,6 +1,7 @@
 import React from "react";
 import "../App.css";
 import { Button } from "./Button";
+import { Link } from "react-router-dom";
 import "../Styling/HeroSection.css";
 
 function HeroSection() {
@@ -8,16 +9,15 @@ function HeroSection() {
     <div className="hero-container">
       <video src="/vid/video-3.mp4" autoPlay loop muted />
       <h1>I am simply an appreciator of beautiful writing</h1>
-      <p>
-       who enjoys creating contemporary lettering for special occasions
-      </p>
-      <div className="hero-btns">
+      <p>who enjoys creating contemporary lettering for special occasions</p>
+      {/* <div className="hero-btns">
         <Button
+          to="/about"
           className="btns"
           buttonStyle="btn--primary"
           buttonSize="btn--large"
         >
-          ABOUT ME
+          CONTACT
         </Button>
         <Button
           className="btns"
@@ -25,9 +25,9 @@ function HeroSection() {
           buttonSize="btn--large"
           onClick={console.log("Video on this page")}
         >
-          WATCH TRAILER <i className="far fa-play-circle" />
+          WATCH <i className="far fa-play-circle" />
         </Button>
-      </div>
+      </div> */}
     </div>
   );
 }
