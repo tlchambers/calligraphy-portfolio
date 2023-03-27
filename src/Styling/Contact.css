@@ -35,30 +35,17 @@ label {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-/* textarea {
-  width: 100%;
-  height: 150px;
-  padding: 12px 20px;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  background-color: #f8f8f8;
-  resize: none;
-} */
-
 select {
   width: 30%;
   padding: 12px 20px;
   border: none;
   border-radius: 2px;
-  background-color:  #2e2b28; 
-  color: #fff;
+  background-color:  #E0E1DC;
   margin: 20px 0;
+  margin-left: 20px;
 }
 
 input[type=submit] {
-  /* width: 100%; */
-  /* margin: 0 auto; */
   align-items: start;
   background-color:  #fff;
   border-radius: 2px;

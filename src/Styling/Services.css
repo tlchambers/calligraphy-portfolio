@@ -2,10 +2,8 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 50px;
-  /* margin: 0 auto; */
   padding-left: 60px;
   padding-right: 60px;
-  /* margin-bottom: -15px; */
 }
 
 /* first image seen*/
@@ -29,17 +27,13 @@
   align-items: start;
   top: 45%;
   right: 5%;
-  /* transform: translate(-100, -70%); */
-  /* background-color: #cccccc; */
   background-color: rgba(199, 196, 187, 0.5);
-  /* color: #fff; */
   padding: 10px 20px;
 }
 
 h1 {
   font-size: 2.5vw;
   font-family: "Ethereal", sans-serif;
-  /* color: #504944; */
   z-index: 1;
   max-width: 700px;
 }
@@ -49,5 +43,4 @@ h1 {
   padding-top: 80px;
   padding-left: 30px;
   padding-right: 30px;
-  /* margin-bottom: 200px; */
 }
