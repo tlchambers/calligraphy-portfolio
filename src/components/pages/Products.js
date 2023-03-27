@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { SliderDate } from "../SliderData";
-import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
-// import "../../App.css";
+import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
+import "../../Styling/Products.css";
 
 const Products = ({ slides }) => {
   const [current, setCurrent] = useState(0);
@@ -21,21 +21,25 @@ const Products = ({ slides }) => {
 
   return (
     <section className="slider">
-      <AiOutlineArrowLeft className="left-arrow" onClick={prevSlide} />
-      <AiOutlineArrowRight className="right-arrow" onClick={nextSlide} />
+      <AiOutlineLeft className="left-arrow" onClick={prevSlide} />
+      <AiOutlineRight className="right-arrow" onClick={nextSlide} />
       {SliderDate.map((slide, index) => {
         return (
+          <div className="image-container">
+          <section className="slider">
           <div
             className={index === current ? "slide active" : "slide"}
             key={index}
-          >
-            {index === current && (
+            // id="image-container"
+          >{index === current && (
               <img
                 src={slide.image}
                 alt="calligraphy image"
                 className="image"
               />
             )}
+          </div>
+          </section>
           </div>
         );
       })}
