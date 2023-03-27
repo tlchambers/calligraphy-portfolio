@@ -22,9 +22,9 @@ function Contact() {
       </div>
       <div>
       <form className="form-section" onSubmit={handleSubmit}>
-      <h1>Get in touch</h1>
+      <h1>Get in touch with me</h1>
       <p>
-        For commission, quotes and collaboration, please get in touch via the
+      I’m delighted that you want to know more! For commission, quotes and collaboration, please get in touch via the
         form below.
       </p>
       <br /> 
@@ -59,9 +59,11 @@ function Contact() {
             <option value="Custom Signage">Custom Signage</option>
           </select>
         </label>
+        <br></br>
         <label>
           Message
           <input
+            className="message-container"
             type="text"
             value={message}
             onChange={(e) => setMessage(e.target.value)}
