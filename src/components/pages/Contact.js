@@ -57,6 +57,7 @@ function Contact() {
             <option value="Bespoke Stationery">Bespoke Stationery</option>
             <option value="Hand Painted Candles">Hand Painted Candles</option>
             <option value="Custom Signage">Custom Signage</option>
+            <option value="Letter From Santa (Seasonal)">Letter From Santa (Seasonal)</option>
           </select>
         </label>
         <br></br>
